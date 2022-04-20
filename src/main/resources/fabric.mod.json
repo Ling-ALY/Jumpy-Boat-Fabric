@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "jumpy-boats",
+  "version": "1.0-1.18.2",
+  "name": "jumpy Boats",
+  "description": "Let your boat jump!",
+  "authors": [
+    "Bilibili:LING-ALY"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/bilibili.aly-ling.jump-boat/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "bilibili.alyling.bilibili.alyling.jumpboat.client.Bilibili.alyLing.jumpBoatClient"
+    ],
+    "main": [
+      "bilibili.alyling.bilibili.alyling.jumpboat.Bilibili.alyLing.jumpBoat"
+    ]
+  },
+  "mixins": [
+    "jump-boat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}

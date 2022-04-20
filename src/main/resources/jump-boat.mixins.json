@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "bilibili.alyling.bilibili.alyling.jumpboat.Bilibili.alyLing.Mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinBoatEntity"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
